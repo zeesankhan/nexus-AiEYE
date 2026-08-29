@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Bilawal Sidhu
+Copyright (c) 2026 NEXUS AiEYE Contributors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -22,33 +22,74 @@ SOFTWARE.
 
 ---
 
-NOTE ON THIRD-PARTY DATA AND ASSETS — THE MIT LICENSE ABOVE COVERS THE SOURCE
-CODE ONLY.
+## THIRD-PARTY DATA, CODE AND ASSETS
 
-The datasets bundled under src/data/local_data/, and all data fetched from
-third-party providers at runtime, are owned by their respective sources and
-are NOT licensed under MIT. They are included/visualized for convenience and
-remain subject to their own licenses and terms. Notably:
+The MIT License above applies only to original source code for which the
+NEXUS AiEYE contributors hold the necessary copyright or licensing rights.
 
-  - TeleGeography Submarine Cable Map (src/data/local_data/
-    telegeography_submarine_cables/): CC BY-NC-SA 3.0 — NonCommercial +
-    ShareAlike. NOT for commercial use. If you use this project commercially,
-    remove these files or obtain a commercial license from TeleGeography.
-  - Datacenters and Dams (OpenStreetMap / Open Infrastructure Map extracts):
-    Open Database License (ODbL) 1.0 — attribution + share-alike on the data.
-  - NASA FIRMS active-fire snapshot: CC0 / U.S. public domain (citation
-    requested).
+Third-party code, datasets, APIs, services, images, 3D models, fonts,
+libraries, and other assets are NOT automatically covered by this license.
 
-Live sources (Google Maps, OpenSky, adsb.lol, AISStream, CelesTrak, USGS,
-OSM Overpass, City of Austin, GBFS) are fetched at runtime under each
-provider's terms; some (e.g. Google Maps, OpenSky) restrict commercial use
-and require you to supply your own credentials.
+Such materials remain subject to their respective copyright notices,
+licenses, attribution requirements, and terms of service.
 
-In short: the MIT grant does not extend to any third-party data. See
-DATA_SOURCES.md for the full per-source license + attribution summary, and
-remove any dataset whose terms don't fit your use.
+In particular, this project may contain or access materials from third-party
+providers, including but not limited to:
 
-The 3D models under public/models/ are also third-party works and are NOT
-licensed under MIT. They remain under their individual licenses. See
-public/models/README.md for the author, source, license, modification notice,
-and attribution covering each model file.
+* CesiumJS
+* OpenStreetMap
+* NASA
+* USGS
+* OpenSky Network
+* adsb.lol
+* AISStream
+* CelesTrak
+* Open-Meteo
+* Radio Browser
+* TeleGeography
+* Other external data providers and open-source projects
+
+Users are responsible for complying with the applicable license and terms of
+each third-party provider.
+
+### Original Project / Upstream Attribution
+
+NEXUS AiEYE is a modified and independently branded project derived in part
+from an existing open-source project.
+
+Where portions of the source code remain subject to the original project's
+license or copyright notices, those notices and attribution requirements
+remain applicable.
+
+Modifications and original contributions made for NEXUS AiEYE are identified
+where appropriate within the project.
+
+### Third-Party Data
+
+Data obtained from external providers is not relicensed under the MIT License
+by this project. Runtime data remains subject to the license, terms of use,
+and attribution requirements of its respective provider.
+
+See DATA_SOURCES.md for additional information regarding individual data
+sources.
+
+### Third-Party 3D Models and Assets
+
+3D models and other assets contained in public/models/ or elsewhere in the
+project may be third-party works.
+
+Those materials are not automatically licensed under MIT and remain subject
+to their individual licenses and attribution requirements.
+
+See public/models/README.md where applicable for source, author, license,
+and attribution information.
+
+---
+
+## NEXUS AiEYE
+
+NEXUS AiEYE is the project name and branding used for this version of the
+software.
+
+The NEXUS AiEYE name, logo, and branding are not granted under the MIT
+License unless explicitly stated otherwise.
