@@ -55,5 +55,10 @@
     "vite": "^6.0.0",
     "vite-plugin-cesium": "^1.2.23",
     "ws": "^8.21.0"
+  },
+  "allowScripts": {
+    "esbuild@0.25.12": true,
+    "puppeteer@24.37.5": true,
+    "sharp@0.34.5": true
   }
 }
